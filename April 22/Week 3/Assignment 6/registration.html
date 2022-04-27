@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h2>Registration Form</h2>
+        <form>
+            <table frame="box">
+                <thead></thead>
+                <tbody>
+                    <tr>
+                        <td>First Name:</td>
+                        <td><input /></td>
+                    </tr>
+                    <tr>
+                        <td>Middle Name:</td>
+                        <td><input /></td>
+                    </tr>
+                    <tr>
+                        <td>Last Name:</td>
+                        <td><input /></td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>
+                            <input type="email" name="email"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number:</td>
+                        <td><input type="tel" name="phone" minlength="10" maxlength="12"/></td>
+                    </tr>
+                    <tr>
+                        <td>Create password:</td>
+                        <td><input type="password"/></td>
+                    </tr>
+                    <tr>
+                        <td>Confirm password:</td>
+                        <td><input type="password" /></td>
+                    </tr>
+                    <tr>
+                        <td>Gender:</td>
+                        <td>
+                            <label>Male</label>
+                            <input type="radio" name="gender"/>
+                            <label>Female</label>
+                            <input type="radio" name="gender"/>
+                            <label>Other</label>
+                            <input type="radio" name="gender"/>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Address:</td>
+                        <td>
+                            <textarea name="address" rows="7" columns="4080" aria-setsize="350px"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Date of Birth:</td>
+                        <td><input type="date"/></td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            <input type="button" value="Reset"/>
+                        </td>
+                        <td>
+                            <input type="button" value="Submit"/>
+                        </td>
+                    </tr>
+                </tfoot>
+
+            </table>
+        </form>
+    </body>
+</html>
