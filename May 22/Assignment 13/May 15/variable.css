@@ -1,0 +1,10 @@
+:root{
+    --background-color: rgb(246, 196, 196);
+    --orange-color: rgb(214, 103, 34);
+    --secondary-color: rgb(115, 255, 22);
+    --bold-font: 600;
+    --bolder-font: 800;
+    --black-color: black;
+    --white-color: white;
+    --text-color: rgb(255, 247, 196);
+}
